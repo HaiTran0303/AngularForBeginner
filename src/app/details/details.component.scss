@@ -22,7 +22,7 @@
 }
 
 .listing-features > .section-heading {
-  color: var(--secondary-color);
+  color: rgb(150, 182, 242);
   font-size: 24pt;
   margin-bottom: 15px;
 }
@@ -48,7 +48,7 @@ label, input {
   display: block;
 }
 label {
-  color: var(--secondary-color);
+  color: rgb(150, 182, 242);
   font-weight: bold;
   text-transform: uppercase;
   font-size: 12pt;
@@ -63,6 +63,15 @@ input {
   border-left: none;
   border-bottom: solid .3px;
 }
+
+button {
+  padding: 10px;
+  border: solid 1px #3498db;
+  background: #3498db;
+  color: white;
+  border-radius: 8px;
+}
+
 @media (max-width: 1024px) {
   .listing-photo {
     width: 100%;

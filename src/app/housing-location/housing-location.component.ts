@@ -10,6 +10,7 @@ import { RouterOutlet, RouterLink } from '@angular/router';
     RouterLink,
     RouterOutlet
   ],
+  //using the routerLink to navigate to the details pages
   template: `
   <section class="listing">
     <img class="listing-photo" [src]="housingLocation.photo" alt="Exterior photo of {{housingLocation.name}}">
